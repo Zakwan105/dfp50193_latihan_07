@@ -17,16 +17,16 @@
     echo "<p>Bilangan huruf = $jumlah</p>";
 
     # strstr()
-    $nama = "Ahammad Bin Ali";
+    $nama = "Muhammad Khairul Zakwan Bin Mohd Nasir";
     $cari = strstr($nama, 'amb');
     echo "<p>$cari</p>";
 
-    $nomatrik = "18DDT18F1020";
+    $nomatrik = "18DDT18F1062";
     $bilangan = strstr($nomatrik, 'F');
     echo "<p>Bilangan: $bilangan</p>";
 
     # strpos()
-    $nomatrik = "18DDT18F1020";
+    $nomatrik = "18DDT18F1062";
     $lokasi = strpos($nomatrik, 'T');
     echo "<p>No. Matrik: $nomatrik<br>Lokasi (T): $lokasi</p>";
 
